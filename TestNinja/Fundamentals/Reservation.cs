@@ -1,6 +1,6 @@
 ﻿namespace TestNinja.Fundamentals
 {
-    public class Reservation
+    public class Add
     {
         public User MadeBy { get; set; }
 
