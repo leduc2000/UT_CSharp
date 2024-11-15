@@ -54,6 +54,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FakeFileReader.cs" />
     <Compile Include="TestFundamentals\CustomerControllerTests.cs" />
     <Compile Include="TestFundamentals\DemeritPointsCalculatorTests.cs" />
     <Compile Include="TestFundamentals\ErrorLoggerTests.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="TestFundamentals\MathTests.cs" />
     <Compile Include="TestFundamentals\ReservationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestFundamentals\VideoServiceTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
