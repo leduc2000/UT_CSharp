@@ -67,10 +67,16 @@
     <Compile Include="Fundamentals\Stack.cs" />
     <Compile Include="Mocking\BookingHelper.cs" />
     <Compile Include="Mocking\EmployeeController.cs" />
-    <Compile Include="Mocking\FileReader.cs" />
+    <Compile Include="Interface\FileReader\FileReader.cs" />
+    <Compile Include="Interface\FileDownloader\FileDownloader.cs" />
+    <Compile Include="Interface\FileDownloader\IFileDownloader.cs" />
+    <Compile Include="Interface\EmployeeStorage\EmployeeStorage.cs" />
+    <Compile Include="Interface\EmployeeStorage\IEmployeeStorage.cs" />
     <Compile Include="Mocking\InstallerHelper.cs" />
+    <Compile Include="Interface\VideoRepository\IVideoRepository.cs" />
     <Compile Include="Mocking\OrderService.cs" />
     <Compile Include="Mocking\Product.cs" />
+    <Compile Include="Interface\VideoRepository\VideoRepository.cs" />
     <Compile Include="Mocking\VideoService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -78,6 +84,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
