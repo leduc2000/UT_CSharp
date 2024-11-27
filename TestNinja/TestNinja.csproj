@@ -66,12 +66,14 @@
     <Compile Include="Fundamentals\Reservation.cs" />
     <Compile Include="Fundamentals\Stack.cs" />
     <Compile Include="Mocking\BookingHelper.cs" />
+    <Compile Include="Interface\BookingRepository\BookingRepository.cs" />
     <Compile Include="Mocking\EmployeeController.cs" />
     <Compile Include="Interface\FileReader\FileReader.cs" />
     <Compile Include="Interface\FileDownloader\FileDownloader.cs" />
     <Compile Include="Interface\FileDownloader\IFileDownloader.cs" />
     <Compile Include="Interface\EmployeeStorage\EmployeeStorage.cs" />
     <Compile Include="Interface\EmployeeStorage\IEmployeeStorage.cs" />
+    <Compile Include="Interface\BookingRepository\IBookingRepository.cs" />
     <Compile Include="Mocking\InstallerHelper.cs" />
     <Compile Include="Interface\VideoRepository\IVideoRepository.cs" />
     <Compile Include="Mocking\OrderService.cs" />

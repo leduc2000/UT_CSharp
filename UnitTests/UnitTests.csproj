@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FakeFileReader.cs" />
+    <Compile Include="TestFundamentals\BookingHelperTests.cs" />
     <Compile Include="TestFundamentals\CustomerControllerTests.cs" />
     <Compile Include="TestFundamentals\DemeritPointsCalculatorTests.cs" />
     <Compile Include="TestFundamentals\ErrorLoggerTests.cs" />
